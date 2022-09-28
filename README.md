@@ -54,6 +54,13 @@ console.log(chalk.blue('Hello world!'));
 ## Biblioteca nativa FS (File System)
 Biblioteca para trabalhar com arquivos.
 
+## Tratamento de erros
+Exemplo: (lançando um erro)
+```
+throw new Error(chalk.red(erro.code, 'Não há arquivo no diretório'));
+```
+
+[Mais sobre o objeto Error](https://nodejs.org/dist/latest-v16.x/docs/api/errors.html)
 
 
 
