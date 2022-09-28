@@ -21,3 +21,7 @@ node index.js
 ## Biblioteca
 > [Biblioteca Chalk](https://www.npmjs.com/search?q=chalk)
 
+### Instalação
+```
+npm install chalk
+```
