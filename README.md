@@ -19,7 +19,7 @@ node index.js
 ```
 
 ## Biblioteca
-> [Biblioteca Chalk](https://www.npmjs.com/search?q=chalk)
+> [Biblioteca Chalk](https://www.npmjs.com/package/chalk)
 
 ### Instalação
 ```
