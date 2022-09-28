@@ -11,3 +11,9 @@ npm init
 ```
 npm install <nome do pacote>
 ```
+
+## Comandos do Node
+### Executando um arquivo no terminal
+```
+node index.js 
+```
