@@ -17,3 +17,7 @@ npm install <nome do pacote>
 ```
 node index.js 
 ```
+
+## Biblioteca
+> [Biblioteca Chalk](https://www.npmjs.com/search?q=chalk)
+
