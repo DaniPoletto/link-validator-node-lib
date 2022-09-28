@@ -51,3 +51,10 @@ console.log(chalk.blue('Hello world!'));
 
 ![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_chalk1.jpg)
 
+## Biblioteca nativa FS (File System)
+Biblioteca para trabalhar com arquivos.
+
+
+
+
+
