@@ -25,3 +25,9 @@ node index.js
 ```
 npm install chalk
 ```
+
+### Instalando exatamente a versão 5.0.1
+```
+npm install chalk@5.0.1 --save-exact
+```
+
