@@ -31,3 +31,8 @@ npm install chalk
 npm install chalk@5.0.1 --save-exact
 ```
 
+Para utilizar a sintaxe de importação/modulo, acrescente a linha no arquivo package.json:
+```
+"type": "module",
+```
+
