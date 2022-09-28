@@ -62,6 +62,18 @@ throw new Error(chalk.red(erro.code, 'Não há arquivo no diretório'));
 
 [Mais sobre o objeto Error](https://nodejs.org/dist/latest-v16.x/docs/api/errors.html)
 
+## Utilizando promises
+Exemplo:
+```
+function pegaArquivo(caminhoDoArquivo) {
+    const enconding = 'utf-8';
+    fs.promises.readFile(caminhoDoArquivo, enconding)
+        .then((texto) => console.log(chalk.green(texto)))
+        .catch(trataErro);
+}
+```
+A função then espera receber um texto e caso ocorra algum erro, a função catch será executada chamando a função trataErro passando o parametro de erro automaticamente. 
+
 
 
 
