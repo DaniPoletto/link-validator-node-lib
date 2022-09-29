@@ -110,5 +110,18 @@ Todas as ocorrencias que não sejam os caracteres a, b, ou c:
 ```
 
 Espaços em branco:
+```
 [\s]
+```
+
+Qualquer caractere: (equivalente a [a-zA-Z0-9_])
+```
+[\w]
+```
+
+N vezes:
+```
+[\w]*?
+```
+
 
