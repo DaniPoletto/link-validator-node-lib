@@ -89,3 +89,8 @@ async function pegaArquivo(caminhoDoArquivo) {
 ```
 async significa que a função será assincrona e await deve ser colocado na frente da função que deve esperar a resolução de uma promessa. 
 
+## Expressões regulares
+> https://regex101.com/
+
+
+
