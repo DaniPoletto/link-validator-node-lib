@@ -74,6 +74,18 @@ function pegaArquivo(caminhoDoArquivo) {
 ```
 A função then espera receber um texto e caso ocorra algum erro, a função catch será executada chamando a função trataErro passando o parametro de erro automaticamente. 
 
-
-
+## Async/Await
+Exemplo:
+```
+async function pegaArquivo(caminhoDoArquivo) {
+    try {
+        const enconding = 'utf-8';
+        const texto = await fs.promises.readFile(caminhoDoArquivo, enconding);
+        console.log(chalk.green(texto));
+    } catch (erro) {
+        trataErro(erro);
+    }
+}
+```
+async significa que a função será assincrona e await deve ser colocado na frente da função que deve esperar a resolução de uma promessa. 
 
