@@ -93,6 +93,7 @@ async significa que a função será assincrona e await deve ser colocado na fre
 > https://regex101.com/
 
 Exemplos:
+
 Exatamento 'abc': 
 ```
 abc
@@ -107,4 +108,7 @@ Todas as ocorrencias que não sejam os caracteres a, b, ou c:
 ```
 [^abc]
 ```
+
+Espaços em branco:
+[\s]
 
