@@ -156,7 +156,7 @@ Exemplo 3: Retornando um array de ocorrências
     console.log(capturas);
 ```
 
-> ... expandem o array
+> ... (spread operator) expandem o array
 
 
 
