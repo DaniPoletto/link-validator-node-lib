@@ -124,4 +124,8 @@ N vezes:
 [\w]*?
 ```
 
+> Para separar em grupos utilize ()
+
+
+
 
