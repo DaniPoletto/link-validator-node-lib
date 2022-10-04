@@ -126,6 +126,26 @@ N vezes:
 
 > Para separar em grupos utilize ()
 
+> gm significa global multilinha
 
+### Retornando todas as ocorrências 
+Exemplo 1:
 
+```
+    const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
+    const capturas = texto.match(regex);
+    console.log(capturas);
+```
+
+![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_regex1.jpg)
+
+Exemplo 2: 
+
+```
+    const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
+    const capturas = texto.match(regex);
+    console.log(capturas);
+```
+
+![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_regex2.jpg)
 
