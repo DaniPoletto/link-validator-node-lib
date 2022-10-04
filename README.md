@@ -129,7 +129,7 @@ N vezes:
 > gm significa global multilinha
 
 ### Retornando todas as ocorrências 
-Exemplo 1:
+Exemplo 1: Retornando todas as ocorrências
 
 ```
     const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
@@ -139,7 +139,7 @@ Exemplo 1:
 
 ![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_regex1.jpg)
 
-Exemplo 2: 
+Exemplo 2: Retornando primeira ocorrência separando os grupos
 
 ```
     const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
@@ -148,4 +148,16 @@ Exemplo 2:
 ```
 
 ![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_regex2.jpg)
+
+Exemplo 3: Retornando um array de ocorrências
+```
+    const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
+    const capturas = [...texto.matchAll(regex)];
+    console.log(capturas);
+```
+
+> ... expandem o array
+
+
+
 
