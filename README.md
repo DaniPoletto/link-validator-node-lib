@@ -3,6 +3,11 @@
 ## O projeto
 Projeto de uma biblioteca, feito durante curso sobre node.js da Alura, que percorre arquivos .md procurando por links. 
 
+### Executando o projeto
+```
+npm run cli ./arquivos/ 
+```
+
 ## Utilizando Node Package Manager, ou Gerenciador de Pacotes do Node (NPM)
 
 ### Criar arquivo package.json
