@@ -11,6 +11,15 @@ function imprimeLista(resultado) {
 async function processaTexto(argumentos) {
     const caminho = argumentos[2];
 
+    try {
+        fs.lstatSync(caminho);
+    } catch (erro) {
+        if (erro.code === 'ENOENT') {
+            console.log(chalk.red(erro.code, 'Diretório não existe')); 
+            return;
+        }
+    }
+
     if (fs.lstatSync(caminho).isFile()) {
         const resultado = await pegaArquivo(caminho);
         imprimeLista(resultado);
