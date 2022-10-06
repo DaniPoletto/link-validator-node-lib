@@ -1,11 +1,23 @@
-# Projeto Node
+# Biblioteca Node para recuperação de links em arquivos
 
 ## O projeto
 Projeto de uma biblioteca, feito durante curso sobre node.js da Alura, que percorre arquivos .md procurando por links. 
 
+### Inicializando o projeto
+```
+npm install
+```
+
 ### Executando o projeto
+
+Executando todos os arquivos de uma pasta
 ```
 npm run cli ./arquivos/ 
+```
+
+Executando um arquivo
+```
+npm run cli ./arquivos/texto.md
 ```
 
 ## Utilizando Node Package Manager, ou Gerenciador de Pacotes do Node (NPM)
