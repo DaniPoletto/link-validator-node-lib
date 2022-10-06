@@ -15,10 +15,14 @@ Executando todos os arquivos de uma pasta
 npm run cli ./arquivos/ 
 ```
 
+![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_programa1.jpg)
+
 Executando um arquivo
 ```
 npm run cli ./arquivos/texto.md
 ```
+
+![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_programa2.jpg)
 
 ## Utilizando Node Package Manager, ou Gerenciador de Pacotes do Node (NPM)
 
