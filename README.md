@@ -26,6 +26,16 @@ node index.js
 "type": "module",
 ```
 
+### Exportando função
+```
+export default pegaArquivo;
+```
+
+### Importando função
+```
+import pegaArquivo from "./index.js";
+```
+
 ## Biblioteca Chalk
 Biblioteca usada para formatar textos no terminal. 
 
