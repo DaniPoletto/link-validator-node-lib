@@ -16,14 +16,14 @@ npm install
 
 ### Executando o projeto
 
-Executando todos os arquivos de uma pasta
+- Executando todos os arquivos de uma pasta
 ```
 npm run cli ./arquivos/ 
 ```
 
 ![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_programa1.jpg)
 
-Executando um arquivo
+- Executando um arquivo
 ```
 npm run cli ./arquivos/texto.md
 ```
