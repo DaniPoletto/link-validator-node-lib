@@ -3,6 +3,12 @@
 ## O projeto
 Projeto de uma biblioteca, feito durante curso sobre node.js da Alura, que percorre arquivos .md procurando por links. 
 
+## Funções
+- [x] Recuperar links em arquivos
+- [x] Recuperar links em arquivos de uma pasta
+- [x] Tratamento de arquivo sem nenhum link
+- [x] Tratamento de erros (verificar se pasta ou arquivo existe)
+
 ### Inicializando o projeto
 ```
 npm install
