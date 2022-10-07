@@ -63,6 +63,11 @@ export default pegaArquivo;
 import pegaArquivo from "./index.js";
 ```
 
+### Transformando array em string - join()
+```
+arrLinks.map((objetoLink) => Object.values(objetoLink).join());
+```
+
 ## Biblioteca Chalk
 Biblioteca usada para formatar textos no terminal. 
 
@@ -194,6 +199,8 @@ Exemplo 3: Retornando um array de ocorrências
 ```
 
 > ... (spread operator) expandem o array
+
+
 
 
 
