@@ -1,3 +1,5 @@
+import chalk from "chalk";
+
 function extraiLinks (arrLinks) {
     return arrLinks.map((objetoLink) => Object.values(objetoLink).join());
 }
@@ -6,11 +8,23 @@ async function checaStatus (listaURLs) {
     const arrStatus = await Promise
     .all(
         listaURLs.map(async (url) => {
-            const response = await fetch(url);
-            return response.status;
+            try {
+                const response = await fetch(url);
+                return response.status;
+            } catch (erro) {
+                return manejaErros(erro);
+            }
         })
     )
     return arrStatus;
+}
+
+function manejaErros (erro) {
+    if (erro.cause.code === 'ENOTFOUND') {
+        return 'link não encontrado';
+    } else {
+        return 'Ocorreu algum erro';
+    }
 }
 
 export default async function listaValidada (listaDelinks) {
@@ -22,5 +36,3 @@ export default async function listaValidada (listaDelinks) {
         status: status[indice]
     }))
 }
-
-//[gatinho salsicha](http://gatinhosalsicha.com.br/)
