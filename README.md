@@ -1,13 +1,14 @@
 # Biblioteca Node para recuperação de links em arquivos
 
 ## O projeto
-Projeto de uma biblioteca, feito durante curso sobre node.js da Alura, que percorre arquivos .md procurando por links. 
+Projeto de uma biblioteca, feito durante curso sobre node.js da Alura, que percorre arquivos .md procurando por links para validação. A biblioteca verifica se os links são validos a partir de seu HTTP status code.   
 
 ## Funções
 - [x] Recuperar links em arquivos
 - [x] Recuperar links em arquivos de uma pasta
 - [x] Tratamento de arquivo sem nenhum link
 - [x] Tratamento de erros (verificar se pasta ou arquivo existe)
+- [x] Verificar HTTP status code dos links encontrados no(s) arquivo(s)
 
 ### Inicializando o projeto
 ```
@@ -66,6 +67,20 @@ import pegaArquivo from "./index.js";
 ### Transformando array em string - join()
 ```
 arrLinks.map((objetoLink) => Object.values(objetoLink).join());
+```
+
+### Fetch
+
+> A função fetch só funciona apartir da versão 18.0.0. Para versões anteriores é preciso intalar uma biblioteca externa.
+
+Exemplo de uso:
+
+```
+const res = await fetch('https://api.belo.app/public/price');
+if (res.ok) {
+  const data = await res.json();
+  console.log(data);
+}
 ```
 
 ## Biblioteca Chalk
