@@ -31,6 +31,13 @@ npm run cli ./arquivos/texto.md
 
 ![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_programa2.jpg)
 
+- Validando os links do arquivo
+```
+npm run cli:valida
+```
+
+![Alt Text](https://github.com/DaniPoletto/projeto-node/blob/main/exemplo_programa3.jpg)
+
 ## Utilizando Node Package Manager, ou Gerenciador de Pacotes do Node (NPM)
 
 ### Criar arquivo package.json

@@ -16,7 +16,11 @@ async function checaStatus (listaURLs) {
 export default async function listaValidada (listaDelinks) {
     const links = extraiLinks(listaDelinks);
     const status = await checaStatus(links);
-    return status;
+
+    return listaDelinks.map((objeto, indice) => ({
+        ...objeto, 
+        status: status[indice]
+    }))
 }
 
 //[gatinho salsicha](http://gatinhosalsicha.com.br/)
