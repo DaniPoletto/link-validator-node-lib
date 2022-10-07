@@ -1,4 +1,4 @@
-# Biblioteca Node para validar de links em arquivos
+# Biblioteca Node para validar links em arquivos
 
 ## O projeto
 Projeto de uma biblioteca, feito durante curso sobre node.js da Alura, que percorre arquivos .md procurando por links para validação. A biblioteca verifica se os links são validos a partir de seu HTTP status code.   
